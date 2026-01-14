@@ -9,19 +9,7 @@ http://127.0.0.1:8080
 
 2️⃣ Flask Server (PC)
 from flask import Flask, request
-import os
 
-app = Flask(__name__)
-UPLOAD_DIR = "received"
-os.makedirs(UPLOAD_DIR, exist_ok=True)
-
-@app.route('/upload', methods=['POST'])
-def upload():
-    file = request.files['file']
-    file.save(os.path.join(UPLOAD_DIR, file.filename))
-    return "OK"
-
-app.run(port=5000)
 
 
 Run:
