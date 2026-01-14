@@ -57,9 +57,10 @@ Designed for educational & research purposes
 
 ## 📺 Demo — Working in Action
 
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/tmnopqbYMRM" 
-frameborder="0" allowfullscreen></iframe>
+
+[![Watch the demo](https://img.youtube.com/vi/tmnopqbYMRM/0.jpg)](https://youtu.be/tmnopqbYMRM)
+
+▶️ Click the image to watch the full demo on YouTube
 
 
 
